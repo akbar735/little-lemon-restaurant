@@ -1,0 +1,34 @@
+.banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-color: #008074;
+    margin-top: 42px;
+}
+.banner > div {
+    width: 400px;
+    height: 277px;
+}
+.banner + div {
+    color: #fff;
+}
+.banner > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content > div > h1 {
+    color: black;
+}
+.decoration  img {
+    width: 300px;
+}
+.decoration p {
+    color: black;
+    width: 300px;
+}
+.content-title, .decoration {
+    display: flex;
+    justify-content: space-around;
+}
